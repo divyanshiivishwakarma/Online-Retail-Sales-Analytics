@@ -101,7 +101,6 @@ Advanced SQL techniques were used for:
 - Common Table Expressions
 - Window functions
 - Customer revenue ranking
-- Running revenue totals
 - Top performing product in each country
 - Customer segmentation using `CASE`
 
@@ -123,7 +122,3 @@ The Tableau dashboard summarizes the major sales, product, customer, and geograp
 
 ![Online Retail Sales Dashboard](images/dashboard.png)
 
-
-│   ├── 02_business_analysis.sql
-│   └── 03_advanced_sql.sql
-└── README.md
