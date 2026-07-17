@@ -113,7 +113,7 @@ SELECT COUNT(*) FROM retail_2009_2010_clean;
 SELECT COUNT(*) FROM retail_2009_2010_clean WHERE Quantity<=0;
 SELECT COUNT(*) FROM retail_2009_2010_clean WHERE Price<=0;
 SELECT COUNT(*) FROM retail_2009_2010_clean WHERE Invoice LIKE "%C";
-SELECT COUNT(*) FROM retail_2009_2010_clean WHERE 'Customer ID' IS NULL;
+SELECT COUNT(*) FROM retail_2009_2010_clean WHERE `Customer ID` IS NULL;
 
 -- 2010-2011
 SELECT * FROM retail_2010_2011 LIMIT 10;
@@ -226,7 +226,7 @@ SELECT COUNT(*) FROM retail_2010_2011_clean;
 SELECT COUNT(*) FROM retail_2010_2011_clean WHERE Quantity<=0;
 SELECT COUNT(*) FROM retail_2010_2011_clean WHERE Price<=0;
 SELECT COUNT(*) FROM retail_2010_2011_clean WHERE Invoice LIKE "%C";
-SELECT COUNT(*) FROM retail_2010_2011_clean WHERE 'Customer ID' IS NULL;
+SELECT COUNT(*) FROM retail_2010_2011_clean WHERE `Customer ID` IS NULL;
 
 DROP TABLE IF EXISTS retail_clean;
 CREATE TABLE retail_clean AS
